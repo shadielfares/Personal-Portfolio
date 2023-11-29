@@ -287,7 +287,7 @@ input, select, textarea {
 
 	a {
 		color: #cecac3;
-		border-bottom-color: rgba(33, 41, 49, 0.5);
+		border-bottom-color: #21293180;
 	}
 
 		a:hover {
@@ -3074,7 +3074,7 @@ input, select, textarea {
 	}
 
 		table tbody tr:nth-child(2n + 1) {
-			background-color: rgba(220, 220, 220, 0.25);
+			background-color: #dcdcdc40;
 		}
 
 	table th {
@@ -3183,7 +3183,7 @@ input, select, textarea {
 		}
 
 	.pagination a, .pagination span {
-		border-color: #eeeeee;
+		border-color: #111213;
 	}
 
 	.pagination a {
@@ -3202,7 +3202,7 @@ input, select, textarea {
 			}
 
 		.pagination a.active {
-			background-color: #eeeeee;
+			background-color: #3E3F40;
 		}
 
 	.pagination span {
@@ -3760,7 +3760,7 @@ input, select, textarea {
 
 		#main > * {
 			padding: 4rem 4rem 2rem 4rem ;
-			border-top: solid 2px #eeeeee;
+			border-top: solid 2px #111213;
 			margin: 0;
 		}
 
@@ -3953,16 +3953,14 @@ input, select, textarea {
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
-		z-index: 2;
 	}
 
 		#footer input, #footer select, #footer textarea {
-			color: #717981;
+			color: #3E3F40;
 		}
 
 		#footer a {
-			color: #717981;
+			color: #3E3F40;
 			border-bottom-color: rgba(113, 121, 129, 0.5);
 		}
 
@@ -4042,7 +4040,7 @@ input, select, textarea {
 		#footer input[type="email"],
 		#footer select,
 		#footer textarea {
-			border-color: #e2e2e2;
+			border-color: #3E3F40;
 		}
 
 			#footer input[type="text"]:focus,
@@ -4117,7 +4115,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li .icon:before {
-			box-shadow: inset 0 0 0 2px #e2e2e2;
+			box-shadow: inset 0 0 0 2px #686b6d;
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
@@ -4137,23 +4135,23 @@ input, select, textarea {
 			}
 
 		#footer table th {
-			color: #717981;
+			color: #0655a5;
 		}
 
 		#footer table thead {
-			border-bottom-color: #e2e2e2;
+			border-bottom-color: #c40d0d;
 		}
 
 		#footer table tfoot {
-			border-top-color: #e2e2e2;
+			border-top-color: #a02b2b;
 		}
 
 		#footer table.alt tbody tr td {
-			border-color: #e2e2e2;
+			border-color: #e60d0d;
 		}
 
 		#footer .pagination a, #footer .pagination span {
-			border-color: #e2e2e2;
+			border-color: hsl(0, 0%, 89%);
 		}
 
 		#footer .pagination a {
@@ -4193,7 +4191,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			padding: 4rem 4rem 2rem 4rem ;
-			border-left: solid 2px #e2e2e2;
+			border-left: solid 2px #3E3F40;
 		}
 
 			#footer > section:first-child {
@@ -4214,7 +4212,7 @@ input, select, textarea {
 
 				#footer > section.split > section {
 					padding: 3rem 4rem 1rem 4rem ;
-					border-top: solid 2px #e2e2e2;
+					border-top: solid 2px #3E3F40;
 				}
 
 					#footer > section.split > section:first-child {
